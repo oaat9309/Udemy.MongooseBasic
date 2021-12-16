@@ -14,9 +14,9 @@ const movieSchema = new mongoose.Schema({
     year: Number,
     score: Number,
     rating: String
-})
+ })
 
-// making a new model
+// // making a new model
 const Movie = mongoose.model('Movie', movieSchema)
 
 /*const Amadeus = new Movie(
